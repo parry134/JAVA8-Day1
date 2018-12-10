@@ -1,0 +1,23 @@
+
+
+//------------------------------------------
+in java,
+
+how to create function ? 
+
+and
+
+what is the type of function ?
+
+
+
+//------------------------------------------
+
+
+// why / benefits of FP ?
+
+=> by separating 'what' & 'how' code , can write clean & concise code
+=> with Higher-Order-Programming , can compose function for complex logics
+=> by deferring some executions to future, can improve performance of appln
+
+//---------------------------------------------------------------
