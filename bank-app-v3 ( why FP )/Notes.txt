@@ -1,0 +1,109 @@
+
+
+Predicate byAmount = new Predicate() {
+						@Override
+						public boolean test(Txn txn) {
+							return txn.getAmount() == amount;
+						}
+				   };
+				   
+				   
+				   
+	     
+	     |
+	     |
+	     |
+	     |
+	     V
+	     
+
+
+Predicate byAmount = public boolean test(Txn txn) {
+							return txn.getAmount() == amount;
+						}
+				  		    
+	     |
+	     |
+	     |
+	     |
+	     V
+	     
+	     
+
+Predicate byAmount =  boolean test(Txn txn) {
+							return txn.getAmount() == amount;
+						}
+						
+				  		    
+	     |
+	     |
+	     |
+	     |
+	     V 
+	     
+	     
+Predicate byAmount =   test(Txn txn) {
+							return txn.getAmount() == amount;
+						}
+	     
+	     
+	     
+         |
+	     |
+	     |
+	     |
+	     V 	     
+	     	
+( this syntax is function in java language ) / Lambda Expression	     			
+
+
+Predicate byAmount =   (Txn txn) -> {
+							return txn.getAmount() == amount;
+						}		
+						
+
+    
+         |
+	     |
+	     |
+	     |
+	     V 	   						
+
+
+Predicate byAmount =   (txn) -> {
+							return txn.getAmount() == amount;
+						}		
+																
+		
+    
+         |
+	     |
+	     |
+	     |
+	     V 	   					
+				
+				
+				
+
+Predicate byAmount =   txn -> {
+							return txn.getAmount() == amount;
+						}		
+		
+		
+		
+         |
+	     |
+	     |
+	     |
+	     V 	 
+	     
+	     	
+
+Predicate byAmount =   txn ->  txn.getAmount() == amount;
+						
+						
+						
+						
+						
+						
+															
