@@ -1,0 +1,31 @@
+Repo - nagabhushanamn/FP-blr-dec - github
+
+STep -1 : model
+Step -2 : layer
+1) data layer
+2) bussiness layer
+3) web layer
+
+
+solid principles
+s- single responsibility principle - microservice
+o - open close " - 
+l - liskov substitution ' -subclass
+I - interface segragtion
+d - dependancy inversion
+
+
+
+patterns
+creational pattern
+behavioural "
+structuaral "
+
+
+door
+functions / lambda expression
+
+any interface with single abstract method if functional interface @Functional Interface
+str->str.empty();
+type of function(lambda ) is functional interface
+functions can access final/immutable variables inside class
